@@ -21,6 +21,8 @@ in smbus module in [Modified i2c-tools/py-smbus](https://github.com/GssMahadevan
 Only three lines were changed. No interfaces or methods were added. Used OS-environment variables to allow forcefull opening (though
 not the best way). To allow forceful opening user needs to provide command line option **-F**.
 
+## Pre Requisitives
+Ensure that you have enhanced i2c-tools/py-smbus module from above links
 ## Usage of chip_axp209_tool
 ####To collect most of the values as in axp209 script with time,mac, name , value and units
 ```
