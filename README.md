@@ -62,7 +62,7 @@ Output looks like:
 ####To get the above values with time in infinite loop with 60 seconds sleep in between (for data collection in daemon mode) with comma seperated values
 **Hint:** Set loops as 0 to get infinite value. By default only one loop would be executed.
 ```
-/opt/bin/i2helper.py  -F    -NT  -tfbcdzZ -l 0 -w 60 -C
+/opt/bin/axp209.py  -F    -NT  -tfbcdzZ -l 0 -w 60 -C
 ```
 Output looks like:
 ``` 
